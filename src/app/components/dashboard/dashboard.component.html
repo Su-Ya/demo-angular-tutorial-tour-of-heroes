@@ -1,1 +1,9 @@
-<p>dashboard works!</p>
+<h2>Top 5 Heroes</h2>
+<div class="heroes-menu">
+  <a
+    *ngFor="let hero of top5Heroes; let idx = index"
+    routerLink="/home/hero/{{ hero.id }}"
+  >
+    {{ idx+1 }}. {{ hero.name }}
+  </a>
+</div>

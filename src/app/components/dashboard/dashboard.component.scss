@@ -1,0 +1,40 @@
+.heroes-menu {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+  a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #3f525c;
+    border-radius: 2px;
+  }
+  a:hover {
+    background-color: black;
+  }
+  a {
+    display: inline-block;
+    box-sizing: border-box;
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 1rem;
+    width: 100%;
+    margin: .5rem auto;
+  }
+  @media (min-width: 900px) {
+    a {
+      width: 18%;
+    }
+  }
+}
+
+
+
+
+
+/*
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://angular.io/license
+*/
