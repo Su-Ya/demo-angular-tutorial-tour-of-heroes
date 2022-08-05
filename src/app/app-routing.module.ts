@@ -14,19 +14,21 @@ const routes: Routes = [
   },
   {
     path: 'home',
-    component: HomeComponent
-  },
-  {
-    path: 'dashboard',
-    component: DashboardComponent
-  },
-  {
-    path: 'heroes',
-    component: HeroesComponent
-  },
-  {
-    path: 'hero/:id',
-    component: HeroComponent
+    component: HomeComponent,
+    children: [
+      {
+        path: 'dashboard',
+        component: DashboardComponent
+      },
+      {
+        path: 'heroes',
+        component: HeroesComponent
+      },
+      {
+        path: 'hero/:id',
+        component: HeroComponent
+      },
+    ]
   },
   {
     path: '404',
