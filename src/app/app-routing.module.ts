@@ -1,3 +1,6 @@
+import { HeroComponent } from './components/hero/hero.component';
+import { DashboardComponent } from './components/dashboard/dashboard.component';
+import { HeroesComponent } from './components/heroes/heroes.component';
 import { PageNotFoundComponent } from './views/page-not-found/page-not-found.component';
 import { HomeComponent } from './views/home/home.component';
 import { NgModule } from '@angular/core';
@@ -12,6 +15,18 @@ const routes: Routes = [
   {
     path: 'home',
     component: HomeComponent
+  },
+  {
+    path: 'dashboard',
+    component: DashboardComponent
+  },
+  {
+    path: 'heroes',
+    component: HeroesComponent
+  },
+  {
+    path: 'hero/:id',
+    component: HeroComponent
   },
   {
     path: '404',
