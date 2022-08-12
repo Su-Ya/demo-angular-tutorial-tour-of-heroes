@@ -4,7 +4,6 @@ import { FormsModule } from '@angular/forms'; // <-- NgModel lives here
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { PageNotFoundComponent } from './views/page-not-found/page-not-found.component';
 import { HomeComponent } from './views/home/home.component';
 import { HeaderComponent } from './components/header/header.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
@@ -15,7 +14,6 @@ import { MessagesComponent } from './components/messages/messages.component';
 @NgModule({
   declarations: [
     AppComponent,
-    PageNotFoundComponent,
     HomeComponent,
     HeaderComponent,
     DashboardComponent,
