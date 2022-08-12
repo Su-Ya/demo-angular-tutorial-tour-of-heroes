@@ -1,0 +1,20 @@
+.header {
+  h2 {
+    display: inline-block;
+    margin-right: 1.5rem;
+  }
+  button {
+    display: inline-block;
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    border: 0;
+    border-radius: 4px;
+    background-color: #0096FF;
+    color: #fff;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #2f00ff;
+    color: #fff;
+  }
+}
