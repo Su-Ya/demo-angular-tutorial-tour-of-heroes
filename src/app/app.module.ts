@@ -10,6 +10,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { HeroesComponent } from './components/heroes/heroes.component';
 import { HeroComponent } from './components/hero/hero.component';
+import { MessagesComponent } from './components/messages/messages.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { HeroComponent } from './components/hero/hero.component';
     DashboardComponent,
     HeroesComponent,
     HeroComponent,
+    MessagesComponent,
   ],
   imports: [
     BrowserModule,
